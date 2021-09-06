@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 
-const usersUrl = 'http://localhost:8080/users';
+const usersUrl = 'https://mi-team-curd-app.herokuapp.com/users';
 
 export const getPlayers = async (id) => {
      id = id || '';
